@@ -159,7 +159,7 @@
         this.index = this.random(this.prizeList.length - 1);
 
         // 减少剩余抽奖次数
-        this.count--
+        this.count--;
 
         // 开始旋转
         this.rotating()
