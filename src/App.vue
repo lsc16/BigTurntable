@@ -260,7 +260,6 @@
 
     body {
         margin: 0 auto;
-        max-width: 750px;
         min-width: 320px;
         font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
         font-size: 16px;

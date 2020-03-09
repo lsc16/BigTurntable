@@ -12,6 +12,14 @@ import store from "./store";
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
 
+router.beforeEach((to, from, next) => {
+  /*路由发生改变修改页面的title */
+  if(to.name) {
+    document.title = to.name
+  }
+  next();
+})
+
 new Vue({
   router,
   store,
